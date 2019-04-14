@@ -8,6 +8,7 @@ echo "$c" >img_temp/"${code}.txt"
 }
 yes | rm img_temp/*
 #l:len(stocks)
+#t1
 COUNTER=`sed -n '$=' Table.txt`
 echo $COUNTER
 data_left_x=91
